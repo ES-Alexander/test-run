@@ -11,7 +11,7 @@ setuptools.setup(
     description='A package for tests with meaningful output and display (IDLE-Compatible)',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ES-Alexander/test-run',
+    url='https://github.com/ES-Alexander/testrun',
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
