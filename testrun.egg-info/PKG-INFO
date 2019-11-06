@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
 Name: testrun
-Version: 0.0.1
+Version: 0.0.2
 Summary: A package for tests with meaningful output and display (IDLE-Compatible)
-Home-page: https://github.com/ES-Alexander/test-run
+Home-page: https://github.com/ES-Alexander/testrun
 Author: ES-Alexander
 License: UNKNOWN
 Description: # testrun
         A Python library for tests with meaningful output and display (IDLE-compatible)
         _________________________________
-         Version: 0.0.1                  
+         Version: 0.0.2                  
          Author: ES Alexander            
          Release Date: 06/Nov/2019       
         _________________________________

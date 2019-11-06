@@ -1,7 +1,7 @@
 # testrun
 A Python library for tests with meaningful output and display (IDLE-compatible)
 _________________________________
- Version: 0.0.1                  
+ Version: 0.0.2                  
  Author: ES Alexander            
  Release Date: 06/Nov/2019       
 _________________________________
