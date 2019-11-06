@@ -28,4 +28,4 @@ This testing module is intended for small-scale testing of python, including
 
 `MultiRedirect`: 
   A class for managing multiple redirections, allowing for methods to be run 
-  simultaneously run on all stored redirections.
+  simultaneously on all stored redirections.

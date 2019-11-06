@@ -1,4 +1,25 @@
 #!/usr/bin/env python3
+'''
+This testing module is intended for small-scale testing of Python code,
+including in IDLE. Notable features include:
+
+    'TestRun': A base class for a test-suite, including automatic test-
+        detection (for methods beginning with 'test_'), running all available
+        tests or a specified set with the 'run_tests' method, running the tests
+        which failed in the last run with 'run_failed_tests', and automatic
+        (not in IDLE) and user-generated timeouts while testing.
+
+    'TestGroup': A class for grouping multiple TestRun instances as though they
+        are a single instance.
+
+    'Redirect': A class for stream redirection and multiplication, focused on
+        stdin, stdout, and stderr, but also usable for general file streams.
+        Allows for capturing printed output and simulating typed input while
+        testing.
+
+    'MultiRedirect': A class for managing multiple redirections, allowing for
+        methods to be run simultaneously on all stored redirections.
+'''
 
 import traceback # controlled printing of tracebacks (from caught Exceptions)
 import multiprocessing # used for automatic timeouts (not available in IDLE)
@@ -7,7 +28,7 @@ import sys       # used for shell io functionality (stream redirections)
 import os        # for creating folders if necessary
 
 class TestRun(object):
-    ''' A class for running tests. '''
+    ''' A class for running tests (IDLE-compatible). '''
 
     PASS = 1
     FAIL = 0
