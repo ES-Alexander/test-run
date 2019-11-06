@@ -1,5 +1,11 @@
 # test-run
 A Python library for tests with meaningful output and display (IDLE-compatible)
+_________________________________
+ Version: 0.0.1                  
+ Author: ES Alexander            
+ Release Date: 06/Nov/2019       
+_________________________________
+
 
 This testing module is intended for small-scale testing of python, including
     in IDLE. Notable features include:
