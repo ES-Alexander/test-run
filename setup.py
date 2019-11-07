@@ -5,7 +5,7 @@ with open('README.md') as fh:
 
 setuptools.setup(
     name='testrun',
-    version='0.0.4',
+    version='0.0.5',
     author='ES-Alexander',
     auther_email='sandman.esalexander@gmail.com',
     description='A package for tests with meaningful output and display (IDLE-Compatible)',
